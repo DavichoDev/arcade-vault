@@ -1,0 +1,54 @@
+"use client";
+
+import Link from "next/link";
+import { useRef, type MouseEvent } from "react";
+import type { Game } from "@/lib/games";
+import { formatScore } from "@/lib/format";
+
+export function GameCard({ game }: { game: Game }) {
+  const tiltRef = useRef<HTMLAnchorElement>(null);
+
+  const onMove = (e: MouseEvent<HTMLAnchorElement>) => {
+    const el = tiltRef.current;
+    if (!el) return;
+    const r = el.getBoundingClientRect();
+    const px = (e.clientX - r.left) / r.width - 0.5;
+    const py = (e.clientY - r.top) / r.height - 0.5;
+    el.style.transform = `translateY(-6px) rotateX(${-py * 6}deg) rotateY(${px * 8}deg)`;
+  };
+
+  const onLeave = () => {
+    const el = tiltRef.current;
+    if (el) el.style.transform = "";
+  };
+
+  const btnColor =
+    game.color === "magenta" ? " magenta" : game.color === "yellow" ? " yellow" : "";
+
+  // The whole card is one link (PLAY is a styled span) to avoid nested interactives.
+  return (
+    <Link
+      ref={tiltRef}
+      href={`/games/${game.id}`}
+      className="card"
+      onMouseMove={onMove}
+      onMouseLeave={onLeave}
+    >
+      <div className="cover">
+        <div className={"cover-bg " + game.cover}></div>
+        <div className="label">{game.cat}</div>
+      </div>
+      <div className="meta">
+        <div className="title">{game.title}</div>
+        <div className="desc">{game.short}</div>
+        <div className="row">
+          <div className="score-badge">
+            <span>BEST SCORE</span>
+            <b>{formatScore(game.best)}</b>
+          </div>
+          <span className={"btn" + btnColor}>PLAY</span>
+        </div>
+      </div>
+    </Link>
+  );
+}
