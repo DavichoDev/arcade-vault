@@ -6,6 +6,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is Next.js 16 with breaking changes versus older versions. Before writing code, read the relevant guide in `node_modules/next/dist/docs/` and heed deprecation notices (see `AGENTS.md`). `next.config.ts` enables `cacheComponents` and `partialPrefetching`, which change caching/rendering semantics — check the docs before writing any data fetching.
 
+## Skills
+Always use /frontend-design to design user interface.
+
 ## Commands
 
 - `npm run dev` / `npm run build` / `npm run lint` (runs `eslint` with no path argument)
