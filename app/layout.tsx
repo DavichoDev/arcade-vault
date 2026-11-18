@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import { Courier_Prime, JetBrains_Mono, Press_Start_2P } from "next/font/google";
 import "./globals.css";
+import { Suspense } from "react";
+import { Footer } from "@/components/footer";
+import { Nav } from "@/components/nav";
+import { UserProvider } from "@/components/user-provider";
 
 const pressStart = Press_Start_2P({
   weight: "400",
@@ -37,7 +41,16 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body>
         <div className="av-bg" />
         <div className="av-noise" />
-        <div id="root">{children}</div>
+        <UserProvider>
+          <div id="root">
+            {/* usePathname can suspend on fallback params under cacheComponents */}
+            <Suspense fallback={null}>
+              <Nav />
+            </Suspense>
+            {children}
+            <Footer />
+          </div>
+        </UserProvider>
       </body>
     </html>
   );
