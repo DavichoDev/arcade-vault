@@ -4,6 +4,7 @@ import { ACTIVITY, TOP_PLAYERS } from "@/lib/home";
 import { formatScore } from "@/lib/format";
 import { FeatureIcon, type FeatureIconKind } from "./feature-icon";
 import { HomeSilhouettes } from "./home-silhouettes";
+import { HeroScroll } from "./hero-scroll";
 import { Reveal } from "./reveal";
 
 const FEATURES: { icon: FeatureIconKind; title: string; desc: string; color: AccentColor }[] = [
@@ -93,11 +94,8 @@ export function Home() {
               ✦ CREATE ACCOUNT
             </Link>
           </div>
-          <div className="hero-scroll" aria-hidden="true">
-            <span>SCROLL</span>
-            <span className="arrow">▼</span>
-          </div>
         </div>
+        <HeroScroll />
       </section>
 
       {/* WHY */}
