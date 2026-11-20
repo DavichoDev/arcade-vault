@@ -15,6 +15,7 @@ export function Nav() {
   // Library stays active on /games/[id] and /games/[id]/play.
   const libraryActive = pathname.startsWith("/games");
   const hallActive = pathname.startsWith("/hall-of-fame");
+  const aboutActive = pathname.startsWith("/about");
   const authActive = pathname.startsWith("/auth");
 
   const close = () => setOpen(false);
@@ -40,6 +41,9 @@ export function Nav() {
             className={hallActive ? "active" : ""}
           >
             Hall of Fame
+          </Link>
+          <Link href="/about" className={aboutActive ? "active" : ""}>
+            About
           </Link>
         </div>
         <div className="spacer"></div>
@@ -101,6 +105,13 @@ export function Nav() {
           onClick={close}
         >
           Hall of Fame
+        </Link>
+        <Link
+          href="/about"
+          className={aboutActive ? "active" : ""}
+          onClick={close}
+        >
+          About
         </Link>
         <Link
           href="/auth"
