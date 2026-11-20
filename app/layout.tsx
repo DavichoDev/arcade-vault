@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import { Courier_Prime, JetBrains_Mono, Press_Start_2P } from "next/font/google";
 import "./globals.css";
+import { Suspense } from "react";
+import { Footer } from "@/components/footer";
+import { Nav } from "@/components/nav";
+import { UserProvider } from "@/components/user-provider";
 
 const pressStart = Press_Start_2P({
   weight: "400",
@@ -24,7 +28,10 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Arcade Vault · Retro Portal",
+  title: {
+    default: "Arcade Vault · Retro Portal",
+    template: "%s · Arcade Vault",
+  },
   description: "Your retro arcade portal: play, climb the leaderboards, join the hall of fame.",
 };
 
@@ -37,7 +44,16 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body>
         <div className="av-bg" />
         <div className="av-noise" />
-        <div id="root">{children}</div>
+        <UserProvider>
+          <div id="root">
+            {/* usePathname can suspend on fallback params under cacheComponents */}
+            <Suspense fallback={null}>
+              <Nav />
+            </Suspense>
+            {children}
+            <Footer />
+          </div>
+        </UserProvider>
       </body>
     </html>
   );
