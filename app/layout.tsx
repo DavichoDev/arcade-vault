@@ -28,7 +28,10 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Arcade Vault · Retro Portal",
+  title: {
+    default: "Arcade Vault · Retro Portal",
+    template: "%s · Arcade Vault",
+  },
   description: "Your retro arcade portal: play, climb the leaderboards, join the hall of fame.",
 };
 
