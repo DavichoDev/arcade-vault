@@ -1,0 +1,218 @@
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - link "ARCADE VAULT" [ref=e4] [cursor=pointer]:
+      - /url: /
+    - generic [ref=e7]:
+      - link "Home" [ref=e8] [cursor=pointer]:
+        - /url: /
+      - link "Library" [ref=e9] [cursor=pointer]:
+        - /url: /games
+      - link "Hall of Fame" [ref=e10] [cursor=pointer]:
+        - /url: /hall-of-fame
+    - generic [ref=e11]: CREDITS · 03
+    - button "Sign In" [ref=e14] [cursor=pointer]
+  - complementary [ref=e15]:
+    - generic [ref=e16]: MENU
+    - link "Home" [ref=e17] [cursor=pointer]:
+      - /url: /
+    - link "Library" [ref=e18] [cursor=pointer]:
+      - /url: /games
+    - link "Hall of Fame" [ref=e19] [cursor=pointer]:
+      - /url: /hall-of-fame
+    - link "Sign In" [ref=e20] [cursor=pointer]:
+      - /url: /auth
+    - generic [ref=e22]: CREDITS · 03
+  - main [ref=e23]:
+    - generic [ref=e24]:
+      - generic [ref=e26]:
+        - generic [ref=e27]: ▸ INSERT A COIN_
+        - heading "THE CLASSIC ARCADE IS BACK" [level=1] [ref=e28]:
+          - generic [ref=e29]: THE CLASSIC
+          - generic [ref=e30]: ARCADE IS
+          - generic [ref=e31]: BACK
+        - paragraph [ref=e32]: Play the best classics right in your browser.No downloads. No cost. Just fun.
+        - generic [ref=e33]:
+          - link "▶ EXPLORE GAMES" [ref=e34] [cursor=pointer]:
+            - /url: /games
+          - link "✦ CREATE ACCOUNT" [ref=e35] [cursor=pointer]:
+            - /url: /auth
+        - generic [aria-hidden] [ref=e36]:
+          - generic [ref=e37]: SCROLL
+          - generic [ref=e38]: ▼
+      - generic [ref=e39]:
+        - generic [ref=e40]:
+          - generic [ref=e41]: // 01
+          - heading "WHY ARCADE VAULT?" [level=2] [ref=e42]
+        - generic [ref=e44]:
+          - generic [ref=e45]:
+            - generic [ref=e55]: CLASSIC GAMES
+            - generic [ref=e56]: Breakout, Tetris, Snake and many more. The best arcades of all time in one place.
+          - generic [ref=e57]:
+            - generic [ref=e65]: 100% FREE
+            - generic [ref=e66]: No subscriptions, no hidden fees. Every game is available for free.
+          - generic [ref=e67]:
+            - generic [ref=e78]: LADDER BOARDS
+            - generic [ref=e79]: Compete with players from around the world. Climb the ranking and prove who is the best.
+          - generic [ref=e80]:
+            - generic [ref=e91]: ALWAYS GROWING
+            - generic [ref=e92]: We keep adding new games. Come back often, there is always something new to play.
+      - generic [ref=e93]:
+        - generic [ref=e94]:
+          - generic [ref=e95]: // 02
+          - heading "GAMES AVAILABLE NOW" [level=2] [ref=e96]
+        - generic [ref=e98]:
+          - link "BLOCK BUSTER ARCADE" [ref=e99] [cursor=pointer]:
+            - /url: /games/block-buster
+            - generic [ref=e102]:
+              - generic [ref=e103]: BLOCK BUSTER
+              - generic [ref=e104]: ARCADE
+          - link "DROP PUZZLE" [ref=e105] [cursor=pointer]:
+            - /url: /games/drop
+            - generic [ref=e108]:
+              - generic [ref=e109]: DROP
+              - generic [ref=e110]: PUZZLE
+          - link "SERPENT ARCADE" [ref=e111] [cursor=pointer]:
+            - /url: /games/serpent
+            - generic [ref=e114]:
+              - generic [ref=e115]: SERPENT
+              - generic [ref=e116]: ARCADE
+          - link "••• MUNCHER ARCADE" [ref=e117] [cursor=pointer]:
+            - /url: /games/muncher
+            - generic [ref=e118]: •••
+            - generic [ref=e120]:
+              - generic [ref=e121]: MUNCHER
+              - generic [ref=e122]: ARCADE
+          - link "INVADERS SHOOTER" [ref=e123] [cursor=pointer]:
+            - /url: /games/invaders
+            - generic [ref=e126]:
+              - generic [ref=e127]: INVADERS
+              - generic [ref=e128]: SHOOTER
+          - link "▲ ROCKS SHOOTER" [ref=e129] [cursor=pointer]:
+            - /url: /games/rocks
+            - generic [ref=e130]: ▲
+            - generic [ref=e132]:
+              - generic [ref=e133]: ROCKS
+              - generic [ref=e134]: SHOOTER
+        - link "VIEW ALL GAMES →" [ref=e136] [cursor=pointer]:
+          - /url: /games
+      - generic [ref=e138]:
+        - generic [ref=e139]:
+          - generic [ref=e140]: 12+
+          - generic [ref=e141]: GAMES
+          - generic [ref=e142]: AND COUNTING
+        - generic [ref=e143]:
+          - generic [ref=e144]: 1000s
+          - generic [ref=e145]: OF PLAYS
+          - generic [ref=e146]: EVERY SINGLE DAY
+        - generic [ref=e147]:
+          - generic [ref=e148]: GLOBAL
+          - generic [ref=e149]: RANKING
+          - generic [ref=e150]: COMPETE WITH THE WORLD
+      - generic [ref=e151]:
+        - generic [ref=e152]:
+          - generic [ref=e153]: // 03
+          - heading "LIVE ACTIVITY" [level=2] [ref=e154]
+        - generic [ref=e156]:
+          - generic [ref=e157]:
+            - generic [ref=e158]: ▸ LATEST SCORES
+            - generic [ref=e160]:
+              - generic [ref=e161]:
+                - generic [ref=e162]: NEONFOX
+                - generic [ref=e163]: ▸ DROP
+                - generic [ref=e164]: +184,220
+                - generic [ref=e165]: 2 min ago
+              - generic [ref=e166]:
+                - generic [ref=e167]: PX_KAI
+                - generic [ref=e168]: ▸ MUNCHER
+                - generic [ref=e169]: +96,400
+                - generic [ref=e170]: 5 min ago
+              - generic [ref=e171]:
+                - generic [ref=e172]: Z3R0COOL
+                - generic [ref=e173]: ▸ INVADERS
+                - generic [ref=e174]: +54,190
+                - generic [ref=e175]: 8 min ago
+              - generic [ref=e176]:
+                - generic [ref=e177]: VAULT_07
+                - generic [ref=e178]: ▸ ROCKS
+                - generic [ref=e179]: +41,200
+                - generic [ref=e180]: 12 min ago
+              - generic [ref=e181]:
+                - generic [ref=e182]: GLITCHA
+                - generic [ref=e183]: ▸ BLOCK BUSTER
+                - generic [ref=e184]: +28,450
+                - generic [ref=e185]: 18 min ago
+              - generic [ref=e186]:
+                - generic [ref=e187]: ARKADYA
+                - generic [ref=e188]: ▸ SERPENT
+                - generic [ref=e189]: +7,820
+                - generic [ref=e190]: 24 min ago
+              - generic [ref=e191]:
+                - generic [ref=e192]: CYBER_LU
+                - generic [ref=e193]: ▸ FROGGY
+                - generic [ref=e194]: +18,900
+                - generic [ref=e195]: 31 min ago
+          - generic [ref=e196]:
+            - generic [ref=e197]:
+              - generic [ref=e198]: ▸ TOP PLAYERS · TODAY
+              - link "VIEW HALL →" [ref=e199] [cursor=pointer]:
+                - /url: /hall-of-fame
+            - generic [ref=e200]:
+              - generic [ref=e201]:
+                - generic [ref=e202]: "#01"
+                - generic [ref=e203]: NEONFOX
+                - generic [ref=e204]: 312,840
+              - generic [ref=e205]:
+                - generic [ref=e206]: "#02"
+                - generic [ref=e207]: PX_KAI
+                - generic [ref=e208]: 248,110
+              - generic [ref=e209]:
+                - generic [ref=e210]: "#03"
+                - generic [ref=e211]: M00NRYU
+                - generic [ref=e212]: 196,720
+              - generic [ref=e213]:
+                - generic [ref=e214]: "#04"
+                - generic [ref=e215]: VAULT_07
+                - generic [ref=e216]: 154,300
+              - generic [ref=e217]:
+                - generic [ref=e218]: "#05"
+                - generic [ref=e219]: GLITCHA
+                - generic [ref=e220]: 138,900
+      - generic [ref=e221]:
+        - generic [ref=e222]:
+          - generic [ref=e223]: // 04
+          - heading "PRICING" [level=2] [ref=e224]
+        - generic [ref=e226]:
+          - generic [ref=e227]:
+            - generic [ref=e228]: SINGLE PLAN
+            - generic [ref=e229]: VAULT PLAYER
+            - generic [ref=e230]:
+              - generic [ref=e231]: $0
+              - generic [ref=e232]: / FOREVER
+            - generic [ref=e233]: NO TRICKS · NO FINE PRINT
+            - list [ref=e234]:
+              - listitem [ref=e235]: ✔ Access to every game
+              - listitem [ref=e236]: ✔ Global ranking and hall of fame
+              - listitem [ref=e237]: ✔ No ads between games
+              - listitem [ref=e238]: ✔ Save your scores
+              - listitem [ref=e239]: ✔ New games every month
+              - listitem [ref=e240]: ✔ Works in any browser
+            - link "START FREE →" [ref=e241] [cursor=pointer]:
+              - /url: /auth
+            - generic [ref=e242]: We don't ask for a card. We never will.
+            - generic [ref=e243]: FREEPLAY
+          - generic [ref=e245]:
+            - generic [ref=e246]:
+              - generic [ref=e247]: IS IT REALLY FREE?
+              - generic [ref=e248]: Yes. Arcade Vault is a non-profit project made out of love for the classics. There is no hidden "premium" version.
+            - generic [ref=e249]:
+              - generic [ref=e250]: DO I NEED AN ACCOUNT?
+              - generic [ref=e251]: No. You can play as a guest. If you want to save your score and appear in the ranking, sign up in 10 seconds.
+            - generic [ref=e252]:
+              - generic [ref=e253]: HOW DO YOU SURVIVE WITHOUT CHARGING?
+              - generic [ref=e254]: It is a community project. If you like it, share it. That is the only currency we accept.
+      - generic [ref=e255]:
+        - heading "READY TO PLAY?" [level=2] [ref=e256]
+        - link "INSERT COIN →" [ref=e257] [cursor=pointer]:
+          - /url: /games
+        - generic [ref=e258]: Free. No sign-up required. Start in seconds.
+  - contentinfo [ref=e259]: © 2026 ARCADE VAULT · MADE WITH PIXELS AND NEON · v2.6.0

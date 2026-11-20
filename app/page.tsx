@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import { Library } from "@/components/library";
+import { Home } from "@/components/home";
 
-export const metadata: Metadata = { title: "Library · Arcade Vault" };
+export const metadata: Metadata = { title: { absolute: "Arcade Vault" } };
 
-export default function Home() {
+export default function HomePage() {
   return (
     <main className="av-main">
-      <Library />
+      <Home />
     </main>
   );
 }

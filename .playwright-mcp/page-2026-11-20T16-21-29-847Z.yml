@@ -1,0 +1,137 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e2]:
+    - navigation [ref=f1e3]:
+      - link "ARCADE VAULT" [ref=f1e4] [cursor=pointer]:
+        - /url: /
+      - generic [ref=f1e7]:
+        - link "Home" [ref=f1e8] [cursor=pointer]:
+          - /url: /
+        - link "Library" [ref=f1e9] [cursor=pointer]:
+          - /url: /games
+        - link "Hall of Fame" [ref=f1e10] [cursor=pointer]:
+          - /url: /hall-of-fame
+      - generic [ref=f1e11]: CREDITS · 03
+      - button "Sign In" [ref=f1e14] [cursor=pointer]
+    - complementary [ref=f1e15]:
+      - generic [ref=f1e16]: MENU
+      - link "Home" [ref=f1e17] [cursor=pointer]:
+        - /url: /
+      - link "Library" [ref=f1e18] [cursor=pointer]:
+        - /url: /games
+      - link "Hall of Fame" [ref=f1e19] [cursor=pointer]:
+        - /url: /hall-of-fame
+      - link "Sign In" [ref=f1e20] [cursor=pointer]:
+        - /url: /auth
+      - generic [ref=f1e22]: CREDITS · 03
+    - main [ref=f1e23]:
+      - generic [ref=f1e24]:
+        - generic [ref=f1e25]:
+          - heading "ARCADE VAULT" [level=1] [ref=f1e26]
+          - generic [ref=f1e27]: INSERT A COIN TO PLAY _
+        - generic [ref=f1e28]:
+          - generic [ref=f1e29]:
+            - generic [ref=f1e30]: ⌕
+            - textbox "Search games by name" [ref=f1e31]:
+              - /placeholder: Search games by name…
+          - generic [ref=f1e32]:
+            - button "ALL" [ref=f1e33] [cursor=pointer]
+            - button "ARCADE" [ref=f1e34] [cursor=pointer]
+            - button "PUZZLE" [ref=f1e35] [cursor=pointer]
+            - button "SHOOTER" [ref=f1e36] [cursor=pointer]
+            - button "VERSUS" [ref=f1e37] [cursor=pointer]
+        - generic [ref=f1e38]:
+          - link "ARCADE BLOCK BUSTER Bounce the ball and smash neon walls. BEST SCORE 28,450 PLAY" [ref=f1e39] [cursor=pointer]:
+            - /url: /games/block-buster
+            - generic [ref=f1e40]: ARCADE
+            - generic [ref=f1e43]:
+              - generic [ref=f1e44]: BLOCK BUSTER
+              - generic [ref=f1e45]: Bounce the ball and smash neon walls.
+              - generic [ref=f1e46]:
+                - generic [ref=f1e47]:
+                  - generic [ref=f1e48]: BEST SCORE
+                  - generic [ref=f1e49]: 28,450
+                - generic [ref=f1e50]: PLAY
+          - link "PUZZLE DROP Lock the pieces in before the ceiling crushes you. BEST SCORE 184,220 PLAY" [ref=f1e51] [cursor=pointer]:
+            - /url: /games/drop
+            - generic [ref=f1e52]: PUZZLE
+            - generic [ref=f1e55]:
+              - generic [ref=f1e56]: DROP
+              - generic [ref=f1e57]: Lock the pieces in before the ceiling crushes you.
+              - generic [ref=f1e58]:
+                - generic [ref=f1e59]:
+                  - generic [ref=f1e60]: BEST SCORE
+                  - generic [ref=f1e61]: 184,220
+                - generic [ref=f1e62]: PLAY
+          - link "ARCADE SERPENT Grow without biting your own tail. BEST SCORE 7,820 PLAY" [ref=f1e63] [cursor=pointer]:
+            - /url: /games/serpent
+            - generic [ref=f1e64]: ARCADE
+            - generic [ref=f1e67]:
+              - generic [ref=f1e68]: SERPENT
+              - generic [ref=f1e69]: Grow without biting your own tail.
+              - generic [ref=f1e70]:
+                - generic [ref=f1e71]:
+                  - generic [ref=f1e72]: BEST SCORE
+                  - generic [ref=f1e73]: 7,820
+                - generic [ref=f1e74]: PLAY
+          - link "••• ARCADE MUNCHER Gobble the dots and outrun the ghosts. BEST SCORE 96,400 PLAY" [ref=f1e75] [cursor=pointer]:
+            - /url: /games/muncher
+            - generic [ref=f1e76]:
+              - generic [ref=f1e77]: •••
+              - generic [ref=f1e78]: ARCADE
+            - generic [ref=f1e79]:
+              - generic [ref=f1e80]: MUNCHER
+              - generic [ref=f1e81]: Gobble the dots and outrun the ghosts.
+              - generic [ref=f1e82]:
+                - generic [ref=f1e83]:
+                  - generic [ref=f1e84]: BEST SCORE
+                  - generic [ref=f1e85]: 96,400
+                - generic [ref=f1e86]: PLAY
+          - link "SHOOTER INVADERS Defend the planet from rows of aliens. BEST SCORE 54,190 PLAY" [ref=f1e87] [cursor=pointer]:
+            - /url: /games/invaders
+            - generic [ref=f1e88]: SHOOTER
+            - generic [ref=f1e91]:
+              - generic [ref=f1e92]: INVADERS
+              - generic [ref=f1e93]: Defend the planet from rows of aliens.
+              - generic [ref=f1e94]:
+                - generic [ref=f1e95]:
+                  - generic [ref=f1e96]: BEST SCORE
+                  - generic [ref=f1e97]: 54,190
+                - generic [ref=f1e98]: PLAY
+          - link "▲ SHOOTER ROCKS Pulverize asteroids in zero gravity. BEST SCORE 41,200 PLAY" [ref=f1e99] [cursor=pointer]:
+            - /url: /games/rocks
+            - generic [ref=f1e100]:
+              - generic [ref=f1e101]: ▲
+              - generic [ref=f1e102]: SHOOTER
+            - generic [ref=f1e103]:
+              - generic [ref=f1e104]: ROCKS
+              - generic [ref=f1e105]: Pulverize asteroids in zero gravity.
+              - generic [ref=f1e106]:
+                - generic [ref=f1e107]:
+                  - generic [ref=f1e108]: BEST SCORE
+                  - generic [ref=f1e109]: 41,200
+                - generic [ref=f1e110]: PLAY
+          - link "ARCADE FROGGY Cross the pixel highway. BEST SCORE 18,900 PLAY" [ref=f1e111] [cursor=pointer]:
+            - /url: /games/froggy
+            - generic [ref=f1e112]: ARCADE
+            - generic [ref=f1e115]:
+              - generic [ref=f1e116]: FROGGY
+              - generic [ref=f1e117]: Cross the pixel highway.
+              - generic [ref=f1e118]:
+                - generic [ref=f1e119]:
+                  - generic [ref=f1e120]: BEST SCORE
+                  - generic [ref=f1e121]: 18,900
+                - generic [ref=f1e122]: PLAY
+          - link "VERSUS PIXEL DUEL Two paddles. One ball. Maximum reflexes. BEST SCORE 24 PLAY" [ref=f1e123] [cursor=pointer]:
+            - /url: /games/pixel-duel
+            - generic [ref=f1e124]: VERSUS
+            - generic [ref=f1e127]:
+              - generic [ref=f1e128]: PIXEL DUEL
+              - generic [ref=f1e129]: Two paddles. One ball. Maximum reflexes.
+              - generic [ref=f1e130]:
+                - generic [ref=f1e131]:
+                  - generic [ref=f1e132]: BEST SCORE
+                  - generic [ref=f1e133]: "24"
+                - generic [ref=f1e134]: PLAY
+    - contentinfo [ref=f1e135]: © 2026 ARCADE VAULT · MADE WITH PIXELS AND NEON · v2.6.0
+  - button "Open Next.js Dev Tools" [ref=f1e141] [cursor=pointer]
+  - alert [ref=f1e145]
