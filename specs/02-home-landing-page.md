@@ -1,6 +1,6 @@
 # SPEC 02 — Home (landing) en `/` y Library en `/games`
 
-> **Status:** Draft
+> **Status:** Approved
 > **Depends on:** SPEC 01
 > **Date:** 2026-11-20
 > **Objective:** Portar la landing `references/home-about/home.jsx` a Next.js como nueva página `/` (en inglés) y mover la Library actual a `/games`, sin implementar ninguna otra vista.
